@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+// OverlayScrollbars
+@import '~overlayscrollbars/css/OverlayScrollbars.css';
+// iCheck
+@import '~icheck-bootstrap/icheck-bootstrap.css';
+// AdminLTE
+@import '../../vendor/almasaeed2010/adminlte/dist/css/adminlte.css';
+
+.btn-primary  {
+    border-color: #20c997 !important;
+    background-color: #199d76 !important;
+}
+
+.btn-primary .form-control:focus {
+    border-color: #20c997 !important;
+}
+
+.btn-primary:hover {
+    background-color: #20c997 !important;
+    border-color: #20c997 !important;
+}
+
+.icheck-primary > input:first-child:checked + label::before {
+    background-color: #20c997 !important;
+    border-color: #20c997 !important;
+}
+
+.icheck-primary > input:first-child:hover + label::before {
+    border-color: #199d76 !important;
+    background-color: #199d76 !important;
+}
+.icheck-primary > input:first-child:focus + label::before {
+    border-color: #20c997 !important;
+}
+a {
+    color: #199d76 !important;
+}
+a:hover {
+    color: #20c997 !important;
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #4b5e41 !important;
+}
